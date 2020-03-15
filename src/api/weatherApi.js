@@ -15,7 +15,6 @@ export default async function GET_WEATHER() {
             return undefined;
         });
 }
-
 function GET_IP() {
     return axios
         .get('http://api.ipify.org/?format=json')
@@ -29,7 +28,6 @@ function GET_IP() {
             return undefined;
         });
 }
-
 async function GET_COORD() {
     let ip = await GET_IP();
     const Weather_API = 'http://api.ipstack.com/' + ip.ip + '?access_key=3d3876bc7520c1d30e0149c93ec607f4';

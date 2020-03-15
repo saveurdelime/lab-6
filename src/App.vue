@@ -8,13 +8,14 @@ import WeatherDisplay from "./components/WeatherDisplay";
 
 export default {
   name: 'App',
-
   components: {
     WeatherDisplay
   },
-
-  data: () => ({
-    //
-  }),
 };
 </script>
+
+<style scoped>
+ body{
+  min-width: 450px;
+ }
+</style>
