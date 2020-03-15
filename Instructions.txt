@@ -1,0 +1,9 @@
+Pour lancer l'application, faite   
+$npm install
+$npm run serve
+L'app est constituée de 3 composantes vue.
+
+DisplayHeader -> Entête géolocalisé
+WeatherDisplay & WeatherCard -> Prévisions de la semaine (5 days forecast)
+
+La géolocalisation est faite à partir de l'adress IP et ne requiere pas l'accord de l'usagé
